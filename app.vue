@@ -28,7 +28,7 @@
               <Bars3Icon class="h-6 w-6" aria-hidden="true" />
             </button>
             <div class="hidden lg:ml-12 lg:flex lg:gap-x-14">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-gray-900">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-xl leading-6 text-gray-900">{{ item.name }}</a>
             </div>
           </nav>
         </div>
@@ -39,7 +39,7 @@
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+              <img class="h-8 w-auto" src="./assets/images/irh02-trans.png?color=indigo&shade=600" alt="" />
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
@@ -51,9 +51,9 @@
               <div class="space-y-2 py-6">
                 <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
               </div>
-              <div class="py-6">
+              <!-- <div class="py-6">
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-              </div>
+              </div> -->
             </div>
           </div>
         </DialogPanel>
@@ -94,19 +94,21 @@
     <main>
 
       <!-- Feature section -->
-      <div class="relative bg-white py-24 sm:py-32 lg:py-40">
-    <div class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-      <h2 class="text-lg font-semibold text-indigo-600">Our Signature:</h2>
-      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Stone Coated Roof Tiles - Elegance That Endures</p>
-      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Discover the timeless elegance of our Stone Coated Roof Tiles. With a strong 25-year warranty against corrosion and surface coating, our Stone Coated Roof Tiles guarantee lasting protection against the elements.</p>
-      <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Why Choose Ideal RoofHub's Stone Coated Roof Tiles?</p>
+    <div class="relative py-24 mt-10 sm:py-32 lg:py-40 ">
+      <div class="absolute inset-0 sm:py-32 lg:py-40 bg-cover bg-center bg-[url('/assets/images/05.jpg')] opacity-80 "/>
+    <div class="relative mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+      <div class="bg-white/60 rounded-lg py-10">
+        <p class="mt-2 text-3xl font-bold tracking-tight text-[#bf1e2e]  sm:text-4xl">Stone Coated Roof Tiles - Elegance That Endures</p>
+        <p class="mx-auto mt-5 max-w-prose text-xl text-gray-800">Discover the timeless elegance of our Stone Coated Roof Tiles. With a strong 25-year warranty against corrosion and surface coating, our Stone Coated Roof Tiles guarantee lasting protection against the elements.</p>
+        <p class="mx-auto mt-5 max-w-prose text-xl text-gray-800">Why Choose Ideal RoofHub's Stone Coated Roof Tiles?</p>
+      </div>
       <div class="mt-20">
         <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           <div v-for="feature in primaryFeatures" :key="feature.name" class="pt-6">
-            <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+            <div class="flow-root rounded-lg bg-gray-50 px-6 pb-8 opacity-80">
               <div class="-mt-6">
                 <div>
-                  <span class="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                  <span class="inline-flex items-center justify-center rounded-xl p-3 shadow-lg bg-gradient-to-r from-[#bf1e2e] to-[#e73125]">
                     <component :is="feature.icon" class="h-8 w-8 text-white" aria-hidden="true" />
                   </span>
                 </div>
@@ -121,7 +123,7 @@
   </div>
 
       <!-- Secondary Feature section -->
-      <div class="overflow-hidden bg-gray-50 py-16 lg:py-24">
+  <div class="overflow-hidden bg-gray-50 py-16 lg:py-24">
     <div class="relative mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
       <svg class="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
         <defs>
@@ -182,15 +184,102 @@
               </defs>
               <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
             </svg>
-            <img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="" />
+            <img class="relative mx-auto" width="490" src="./assets/images/04.jpg" alt="" />
           </div>
         </div>
       </div>
+
+      <svg class="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+        <defs>
+          <pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+      </svg>
+
+      <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div class="relative">
+          <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Furniture Making</h3>
+          <p class="mt-3 text-lg text-gray-500">Immerse yourself in comfort and artistry with our bespoke furniture creations, where every piece tells a story.</p>
+        </div>
+
+        <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
+          <svg class="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
+            <defs>
+              <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+          </svg>
+          <img class="relative mx-auto" width="490" src="./assets/images/06.jpg" alt="" />
+        </div>
+      </div>
+
+      <svg class="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+        <defs>
+          <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+      </svg>
+
+      <div class="relative mt-12 sm:mt-16 lg:mt-24">
+        <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
+          <div class="lg:col-start-2">
+            <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Food Cart Construction</h3>
+            <p class="mt-3 text-lg text-gray-500">From vision to reality, we craft food carts that resonate with your culinary aspirations, combining utility and visual appeal.</p>
+          </div>
+
+          <div class="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
+            <svg class="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
+              <defs>
+                <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                </pattern>
+              </defs>
+              <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+            </svg>
+            <img class="relative mx-auto" width="490" src="./assets/images/07.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <svg class="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+        <defs>
+          <pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+          </pattern>
+        </defs>
+        <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+      </svg>
+
+      <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div class="relative">
+          <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Signage Solutions</h3>
+          <p class="mt-3 text-lg text-gray-500">Make your presence felt with impactful signage that communicates your brand's essence effectively.</p>
+        </div>
+
+        <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
+          <svg class="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
+            <defs>
+              <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+          </svg>
+          <img class="relative mx-auto" width="490" src="./assets/images/08.jpg" alt="" />
+        </div>
+      </div>
+
     </div>
   </div>
 
       <!-- Newsletter section -->
-      <div class="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+      <!-- <div class="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
         <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Get notified when we’re launching.</h2>
           <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Reprehenderit ad esse et non officia in nulla. Id proident tempor incididunt nostrud nulla et culpa.</p>
@@ -209,7 +298,7 @@
             </defs>
           </svg>
         </div>
-      </div>
+      </div> -->
 
       <!-- Testimonials section -->
       <div class="relative isolate mt-32 sm:mt-56 sm:pt-32">
@@ -233,7 +322,7 @@
           </div>
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-xl sm:text-center">
-              <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
+              <h2 class="text-lg font-semibold leading-8 tracking-tight text-[#bf1e2e]">Testimonials</h2>
               <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We have worked with thousands of amazing people</p>
             </div>
             <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -273,63 +362,51 @@
     </main>
 
     <!-- Footer -->
-    <footer class="mt-32 bg-gray-900 sm:mt-56" aria-labelledby="footer-heading">
+    <footer class="mt-32 sm:mt-56 bg-gray-200" aria-labelledby="footer-heading">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-          <img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Company name" />
+          <img class="h-20" src="./assets/images/ideal-roof-hub-trans.png" alt="Company name" />
           <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
+                <h3 class="text-sm font-semibold leading-6 text-[#bf1e2e]">Services</h3>
                 <ul role="list" class="mt-6 space-y-4">
-                  <li v-for="item in footerNavigation.solutions" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <li v-for="item in footerNavigation.services" :key="item.name">
+                    <a :href="item.href" class="text-sm leading-6 text-[#e73125] hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
               </div>
-              <div class="mt-10 md:mt-0">
+              <!-- <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li v-for="item in footerNavigation.support" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
             </div>
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
+                <h3 class="text-sm font-semibold leading-6 text-[#bf1e2e]">Company</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li v-for="item in footerNavigation.company" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                    <a :href="item.href" class="text-sm leading-6 text-[#e73125] hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
               </div>
-              <div class="mt-10 md:mt-0">
+              <!-- <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li v-for="item in footerNavigation.legal" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
-        <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
-          <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">Subscribe to our newsletter</h3>
-            <p class="mt-2 text-sm leading-6 text-gray-300">The latest news, articles, and resources, sent to your inbox weekly.</p>
-          </div>
-          <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label for="email-address" class="sr-only">Email address</label>
-            <input type="email" name="email-address" id="email-address" autocomplete="email" required="" class="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-56 sm:text-sm sm:leading-6" placeholder="Enter your email" />
-            <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-              <button type="submit" class="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
-            </div>
-          </form>
-        </div>
+        
         <div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
           <div class="flex space-x-6 md:order-2">
             <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
@@ -337,7 +414,7 @@
               <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
           </div>
-          <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+          <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; 2024 Ideal Roof Hub, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
@@ -360,10 +437,10 @@ import {
 import { ChevronRightIcon } from '@heroicons/vue/20/solid'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '#' },
+  { name: 'Services', href: '#' },
+  { name: 'Gallery', href: '#' },
+  { name: 'About', href: '#' },
 ]
 const primaryFeatures = [
 {
@@ -485,11 +562,13 @@ const testimonials = [
   ],
 ]
 const footerNavigation = {
-  solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+  services: [
+    { name: 'Roofing', href: '#' },
+    { name: 'Interior Fit-Out', href: '#' },
+    { name: 'Architectural Design', href: '#' },
+    { name: 'Furniture Making', href: '#' },
+    { name: 'Food Cart Construction', href: '#' },
+    { name: 'Signage Solutions', href: '#' },
   ],
   support: [
     { name: 'Pricing', href: '#' },
@@ -498,11 +577,11 @@ const footerNavigation = {
     { name: 'API Status', href: '#' },
   ],
   company: [
+    // { name: 'Jobs', href: '#' },
+    { name: 'Home', href: '#' },
+    { name: 'Gallery', href: '#' },
     { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'Contact', href: '#' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
