@@ -97,7 +97,7 @@
     <div class="relative py-24 mt-10 sm:py-32 lg:py-40 ">
       <div class="absolute inset-0 sm:py-32 lg:py-40 bg-cover bg-center bg-[url('/assets/images/05.jpg')] opacity-80 "/>
     <div class="relative mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-      <div class="bg-white/60 rounded-lg py-10">
+      <div class="bg-white/60 rounded-lg py-10 px-6">
         <p class="mt-2 text-3xl font-bold tracking-tight text-[#bf1e2e]  sm:text-4xl">Stone Coated Roof Tiles - Elegance That Endures</p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-800">Discover the timeless elegance of our Stone Coated Roof Tiles. With a strong 25-year warranty against corrosion and surface coating, our Stone Coated Roof Tiles guarantee lasting protection against the elements.</p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-800">Why Choose Ideal RoofHub's Stone Coated Roof Tiles?</p>
