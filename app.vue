@@ -144,6 +144,10 @@
         <div class="relative">
           <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Interior Fit-Out</h3>
           <p class="mt-3 text-lg text-gray-500">Elevate your space with functional and aesthetically pleasing interior designs that harmonize with your lifestyle.</p>
+           <div class="mt-6 flex items-center gap-x-6">
+                <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+           </div>
         </div>
 
         <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
@@ -173,6 +177,10 @@
           <div class="lg:col-start-2">
             <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Architectural Design</h3>
             <p class="mt-3 text-lg text-gray-500"> Let your dreams take shape with our expert architects who translate your ideas into architectural marvels.</p>
+            <div class="mt-6 flex items-center gap-x-6">
+                <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            </div>
           </div>
 
           <div class="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
@@ -202,6 +210,10 @@
         <div class="relative">
           <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Furniture Making</h3>
           <p class="mt-3 text-lg text-gray-500">Immerse yourself in comfort and artistry with our bespoke furniture creations, where every piece tells a story.</p>
+          <div class="mt-6 flex items-center gap-x-6">
+                <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+           </div>
         </div>
 
         <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
@@ -231,6 +243,10 @@
           <div class="lg:col-start-2">
             <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Food Cart Construction</h3>
             <p class="mt-3 text-lg text-gray-500">From vision to reality, we craft food carts that resonate with your culinary aspirations, combining utility and visual appeal.</p>
+            <div class="mt-6 flex items-center gap-x-6">
+                <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            </div>
           </div>
 
           <div class="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
@@ -260,6 +276,10 @@
         <div class="relative">
           <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Signage Solutions</h3>
           <p class="mt-3 text-lg text-gray-500">Make your presence felt with impactful signage that communicates your brand's essence effectively.</p>
+          <div class="mt-6 flex items-center gap-x-6">
+                <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+           </div>
         </div>
 
         <div class="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
